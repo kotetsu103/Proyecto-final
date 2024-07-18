@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="CSS/estilo-menu2.css">
+    <title>Servicios</title>
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <a href="index.html"><img src="Imagenes/logo fybsistemas.png" alt="logo-sl"></a>
+        </div>
+        <nav>
+            <input type="checkbox" id="check" />
+            <label for="check" class="checkbtn">
+                <img src="Imagenes/tres puntos.png" alt="zz" height="50px">
+            </label>
+            <ul class="nav-list">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="Servicios.html">Servicios</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="contactos.html" class="btn"><button> Contactos </button></a></li>
+            </ul>
+        </nav>
+        <div>
+            <ul>
+                <li class="submenu">
+                    <img src="Imagenes/car.svg" id = "img-carrito" alt="">
+                    <div id="carrito">
+                        <table id="lista-carrito">
+                            <thead>
+                                <tr>
+                                    <th>Imagen</th>
+                                    <th>Nombre</th>
+                                    <th>Precio</th>
+                                    <th>Cantidad</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody></tbody>
+                        </table>
+                        <div id="total">
+                            Total: $<span id="total-cantidad">0.00</span>
+                        </div>
+                        <br>
+                        <a href="#" id="vaciar-carrito" class="btn-3">Vaciar Carrito</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <script src="CSS/menu.js"></script>
+    </header>
+
+    <div class="cotainer">
+        <div class="card">
+            <figure>
+                <img src="Imagenes/Imagenes/linux.png" alt="logo">
+            </figure>
+            <div class="contenido">
+                <h3>Curso de Linux</h3>
+                <h3>$70</h3>
+                <p>
+                    Aprende desde cero o mejora tus habilidades existentes
+                    en este sistema operativo de código abierto. Domina 
+                    comandos, administración de servidores y más, guiado por expertos.
+                </p>
+                <a href="#">Comprar</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <figure>
+                <img src="Imagenes/Imagenes/Mantenimeinto-de-compus.jpg" alt="logo">
+            </figure>
+            <div class="contenido">
+                <h3>Mantenimeinto de Equipos</h3>
+                <h3>$50</h3>
+                <p>
+                    Optimiza el rendimiento y prolonga la vida útil de 
+                    tus equipos con nuestro servicio de la mas alta calidad 
+                    profesional de mantenimiento. 
+                </p>
+                <a href="#">Comprar</a>
+            </div>
+        </div>
+
+
+    </div>
+
+    <div class="cotainer">
+        <div class="card">
+            <figure>
+                <img src="Imagenes/Imagenes/wordpress.jpg" alt="logo">
+            </figure>
+            <div class="contenido">
+                <h3>Curso de WordPress</h3>
+                <h3>$60</h3>
+                <p>
+                    Descubre el poder de WordPress con nuestro curso especializado 
+                    diseñado para principiantes y usuarios avanzados por igual. 
+                    Aprende a crear sitios web impresionantes y funcionales sin 
+                    necesidad de conocimientos previos de programación.
+                </p>
+                <a href="#">Comprar</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <figure>
+                <img src="Imagenes/Imagenes/ubunto-server.png" alt="logo">
+            </figure>
+            <div class="contenido">
+                <h3>Curso de Ubuntu</h3>
+                <h3>$90</h3>
+                <p>
+                    Explora las profundidades de Ubuntu Server con nuestro 
+                    curso especializado diseñado para usuarios de todos los
+                    niveles.
+                </p>
+                <a href="#">Comprar</a>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="CSS/carrito-2.js"></script>
+
+    <footer class="pie-pagina">
+        <div class="grupo-1">
+            <div class="box">
+                <figure>
+                    <a href="index.html">
+                        <img src="Imagenes/Logo fybsistemas twitter.png" alt="Logo de SLee Dw">
+                    </a>
+                </figure>
+            </div>
+            <div class="box">
+                <h2>Como llegar</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d593.0841698035539!2d-78.5431645007762!3d-0.25548977441650084!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91d598df3ddc65c5%3A0x18203d4f3fa6602c!2sBiloxi%2C%20Quito!5e0!3m2!1ses!2sec!4v1720495734075!5m2!1ses!2sec" width="250" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="box">
+                <h2>SIGUENOS</h2>
+                <div class="red-social">
+                    <a href="https://www.facebook.com/profile.php?id=100014682013535" class="fa fa-facebook"></a>
+                    <a href="https://www.instagram.com/zenitsu_unu/" class="fa fa-instagram"></a>
+                    <a href="https://x.com/?lang=es" class="fa fa-twitter"></a>
+                    <a href="https://www.youtube.com/" class="fa fa-youtube"></a>
+                </div>
+            </div>
+        </div>
+        <div class="grupo-2">
+            <small>&copy; 2024 <b>Soluciones Libres</b> - Todos los Derechos Reservados.</small>
+        </div>
+    </footer>
+    
+</body>
+</html>
